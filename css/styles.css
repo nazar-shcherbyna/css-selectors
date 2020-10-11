@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .3s ease-in-out 
+}
+
+body {
+    background-color: rgb(231, 255, 194);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.my-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-height: 300px;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.sign {
+    text-align: center;
+}
+
+.list-style {
+    width: 280px;
+    border: 2px solid rgb(231, 255, 194);
+    min-height: 100%;
+    min-width: 20%;
+    padding: 50px 0; 
+}
+
+.list-style:hover,
+.list-style:focus, 
+.list-style:active {
+    background-color: rgb(128, 236, 186);
+    transition: all .5s ease-in;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+}
